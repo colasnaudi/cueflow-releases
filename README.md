@@ -6,7 +6,7 @@
 
 <p align="center">
   Your DJ library, analysed and prepared on your Mac.<br>
-  BPM, beatgrid, bar 1, key, structure and hot cues, exported to Rekordbox. Fully offline.
+  BPM, beatgrid, bar 1, key, structure and hot cues, sent to Rekordbox and Serato. Fully offline.
 </p>
 
 <p align="center">
@@ -29,8 +29,8 @@ This repository only hosts the **downloads** of the Cueflow app. The app's sourc
 | --- | --- |
 | **Mac** | Apple Silicon (M1, M2, M3, M4…). Intel Macs are not supported. |
 | **macOS** | 15 Sequoia or later. |
-| **Licence** | An activation code (one-time purchase, 2 Macs, every 1.x update). |
-| **Internet** | Once, to activate. Cueflow then works offline. |
+| **Licence** | A subscription, 4.99 EUR a month or 39 EUR a year, for 1 Mac. Free 14-day trial, no card. |
+| **Internet** | To activate, then at least once a week for the licence check. Analysis works offline. |
 
 To check your Mac: Apple menu > **About This Mac**.
 
@@ -41,13 +41,13 @@ To check your Mac: Apple menu > **About This Mac**.
 3. Launch Cueflow. It is not notarised by Apple yet, so the first time macOS blocks it: click **Done**.
 4. Open **System Settings** > **Privacy & Security**, scroll down and click **Open Anyway** next to Cueflow, then confirm.
    You only do this once per version.
-5. Paste your activation code and click **Activate**.
+5. Click **Try free for 14 days**, or paste your `CUEF-` key and click **Activate**.
 
 ## Updates
 
 Cueflow tells you when a new version is out (and from the menu: **Cueflow** > **Check for Updates…**).
 Download it here, then replace Cueflow in your Applications folder: your library, your analyses and your licence
-are kept. What each version brings, and how accurate its analysis is: [cueflow.colasnaudi.com/versions](https://cueflow.colasnaudi.com/versions).
+are kept. Coming from 0.2.0: its activation codes do not work with 1.0, start the trial or use a `CUEF-` key. What each version brings, and how accurate its analysis is: [cueflow.colasnaudi.com/versions](https://cueflow.colasnaudi.com/versions).
 
 ## Check your download
 
@@ -61,8 +61,9 @@ The result must match the one in the release notes.
 
 ## Your files stay yours
 
-Cueflow reads your music folder and never rewrites a tag or a file. Analysis runs on your Mac; nothing from your
-library is uploaded. Cleanup only ever moves files to the macOS Trash.
+Cueflow reads your music folder and never rewrites a tag or a file, with one exception you choose: a send to
+Serato writes Serato's own cue and grid tags into MP3, WAV and AIFF files, after a byte-identical backup, and can be
+undone. Analysis runs on your Mac; nothing from your library is uploaded.
 
 ---
 
@@ -72,10 +73,10 @@ library is uploaded. Cleanup only ever moves files to the macOS Trash.
 <br>
 
 **Cueflow** analyse et prépare ta bibliothèque DJ sur ton Mac : BPM, beatgrid, première mesure, tonalité,
-structure et hot cues, exportés vers Rekordbox. Tout hors ligne.
+structure et hot cues, envoyés vers Rekordbox et Serato. Tout hors ligne.
 
-**Configuration :** un Mac Apple Silicon (M1 ou plus récent) avec macOS 15 Sequoia ou plus récent, et un code
-d'activation (paiement unique, 2 Mac, toutes les mises à jour 1.x).
+**Configuration :** un Mac Apple Silicon (M1 ou plus récent) avec macOS 15 Sequoia ou plus récent, et un
+abonnement (4,99 € par mois ou 39 € par an, pour 1 Mac), avec un essai gratuit de 14 jours sans carte.
 
 **Installation :**
 
@@ -84,10 +85,11 @@ d'activation (paiement unique, 2 Mac, toutes les mises à jour 1.x).
 3. Lance Cueflow. Il n'est pas encore notarisé par Apple : la première fois, macOS le bloque. Clique sur **Terminé**.
 4. Ouvre **Réglages Système** > **Confidentialité et sécurité**, descends et clique sur **Ouvrir quand même**, puis
    confirme. Une seule fois par version.
-5. Colle ton code d'activation et clique sur **Activate**.
+5. Clique sur **Essayer 14 jours gratuits**, ou colle ta clé `CUEF-` et clique sur **Activer**.
 
 **Mises à jour :** Cueflow te prévient quand une nouvelle version sort. Télécharge-la ici et remplace l'app dans
-Applications : ta bibliothèque, tes analyses et ta licence sont conservées.
+Applications : ta bibliothèque, tes analyses et ta licence sont conservées. Depuis la 0.2.0 : ses codes
+d'activation ne marchent plus avec la 1.0, lance l'essai ou utilise une clé `CUEF-`.
 [Ce que chaque version apporte](https://cueflow.colasnaudi.com/versions).
 
 </details>
