@@ -1,12 +1,13 @@
 <p align="center">
-  <img src=".github/icon.png" alt="Cueflow" width="128" height="128">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/cueflow-logo-dark.svg">
+    <img src=".github/cueflow-logo-light.svg" alt="Cueflow" width="248">
+  </picture>
 </p>
 
-<h1 align="center">Cueflow for Mac</h1>
-
 <p align="center">
-  Your DJ library, analysed and prepared on your Mac.<br>
-  BPM, beatgrid, bar 1, key, structure and hot cues, sent to Rekordbox and Serato. Fully offline.
+  <strong>Your tracks ready to mix, analysed on your Mac.</strong><br>
+  BPM, beatgrid, bar 1, key and hot cues, sent to Rekordbox or Serato. Fully offline.
 </p>
 
 <p align="center">
