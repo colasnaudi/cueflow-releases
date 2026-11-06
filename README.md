@@ -71,23 +71,53 @@ undone. Analysis runs on your Mac; nothing from your library is uploaded.
 
 <br>
 
-**Cueflow** analyse et prépare ta bibliothèque DJ sur ton Mac : BPM, beatgrid, première mesure, tonalité,
-structure et hot cues, envoyés vers Rekordbox et Serato. Tout hors ligne.
+**Cueflow** prépare tes morceaux pour le mix, sur ton Mac : BPM, beatgrid, première mesure, tonalité, structure et
+hot cues, envoyés vers Rekordbox ou Serato. Tout se fait hors ligne.
 
-**Configuration :** un Mac Apple Silicon (M1 ou plus récent) avec macOS 15 Sequoia ou plus récent, et un
-abonnement (4,99 € par mois ou 39 € par an, pour 1 Mac), avec un essai gratuit de 14 jours sans carte.
+Ce dépôt ne contient que les **téléchargements** de l'app Cueflow. Le code source de l'app n'est pas public.
 
-**Installation :**
+### Configuration requise
 
-1. Télécharge le DMG de la [dernière version](https://github.com/colasnaudi/cueflow-releases/releases/latest).
-2. Ouvre-le et glisse **Cueflow** dans **Applications**.
+| | |
+| --- | --- |
+| **Mac** | Apple Silicon (M1, M2, M3, M4…). Les Mac Intel ne sont pas pris en charge. |
+| **macOS** | 15 Sequoia ou plus récent. |
+| **Licence** | Un abonnement, 4,99 € par mois ou 39 € par an, pour 1 Mac. Essai gratuit de 14 jours, sans carte bancaire. |
+| **Internet** | Pour l'activation, puis au moins une fois par semaine pour vérifier la licence. L'analyse marche hors ligne. |
+
+Pour vérifier ton Mac : menu Pomme > **À propos de ce Mac**.
+
+### Installation
+
+1. Télécharge `Cueflow-x.y.z-arm64.dmg` depuis la [dernière version](https://github.com/colasnaudi/cueflow-releases/releases/latest).
+2. Ouvre-le et glisse **Cueflow** dans ton dossier **Applications**.
 3. Lance Cueflow. Il est signé et notarisé par Apple : il s'ouvre tout de suite.
 4. Clique sur **Essayer 14 jours gratuits**, ou colle ta clé `CUEF-` et clique sur **Activer**.
 
-**Mises à jour :** Cueflow te prévient quand une nouvelle version sort. Télécharge-la ici et remplace l'app dans
-Applications : ta bibliothèque, tes analyses et ta licence sont conservées. Depuis la 0.2.0 : ses codes
-d'activation ne marchent plus avec la 1.0, lance l'essai ou utilise une clé `CUEF-`.
-[Ce que chaque version apporte](https://cueflow.fr/versions).
+### Mises à jour
+
+Cueflow te prévient quand une nouvelle version sort (et depuis le menu : **Cueflow** > **Check for Updates…**).
+Télécharge-la ici, puis remplace Cueflow dans ton dossier Applications : ta bibliothèque, tes analyses et ta licence
+sont conservées. Si tu viens de la 0.2.0 : ses codes d'activation ne marchent pas avec la 1.0, lance l'essai ou
+utilise une clé `CUEF-`. Ce que chaque version apporte, et la précision de son analyse :
+[cueflow.fr/versions](https://cueflow.fr/versions).
+
+### Vérifier ton téléchargement
+
+Chaque version indique le SHA-256 de son DMG. Dans le Terminal :
+
+```bash
+shasum -a 256 ~/Downloads/Cueflow-*-arm64.dmg
+```
+
+Le résultat doit être identique à celui des notes de la version.
+
+### Tes fichiers restent à toi
+
+Cueflow lit ton dossier de musique et ne réécrit jamais un tag ni un fichier, sauf une exception que tu choisis :
+un envoi vers Serato écrit les tags de cues et de grille propres à Serato dans les fichiers MP3, WAV et AIFF, après
+une sauvegarde identique à l'octet près, et peut être annulé. L'analyse se fait sur ton Mac : rien de ta bibliothèque
+n'est envoyé.
 
 </details>
 
