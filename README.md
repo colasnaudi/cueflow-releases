@@ -13,11 +13,11 @@
 <p align="center">
   <a href="https://github.com/colasnaudi/cueflow-releases/releases/latest"><b>Download the latest version</b></a>
   ·
-  <a href="https://cueflow.colasnaudi.com">Website</a>
+  <a href="https://cueflow.fr">Website</a>
   ·
-  <a href="https://cueflow.colasnaudi.com/docs/">Docs</a>
+  <a href="https://cueflow.fr/docs/">Docs</a>
   ·
-  <a href="https://cueflow.colasnaudi.com/versions">What's new</a>
+  <a href="https://cueflow.fr/versions">What's new</a>
 </p>
 
 ---
@@ -39,16 +39,14 @@ To check your Mac: Apple menu > **About This Mac**.
 
 1. Download `Cueflow-x.y.z-arm64.dmg` from the [latest release](https://github.com/colasnaudi/cueflow-releases/releases/latest).
 2. Open it and drag **Cueflow** to your **Applications** folder.
-3. Launch Cueflow. It is not notarised by Apple yet, so the first time macOS blocks it: click **Done**.
-4. Open **System Settings** > **Privacy & Security**, scroll down and click **Open Anyway** next to Cueflow, then confirm.
-   You only do this once per version.
-5. Click **Try free for 14 days**, or paste your `CUEF-` key and click **Activate**.
+3. Launch Cueflow. It is signed and notarised by Apple: it opens at once.
+4. Click **Try free for 14 days**, or paste your `CUEF-` key and click **Activate**.
 
 ## Updates
 
 Cueflow tells you when a new version is out (and from the menu: **Cueflow** > **Check for Updates…**).
 Download it here, then replace Cueflow in your Applications folder: your library, your analyses and your licence
-are kept. Coming from 0.2.0: its activation codes do not work with 1.0, start the trial or use a `CUEF-` key. What each version brings, and how accurate its analysis is: [cueflow.colasnaudi.com/versions](https://cueflow.colasnaudi.com/versions).
+are kept. Coming from 0.2.0: its activation codes do not work with 1.0, start the trial or use a `CUEF-` key. What each version brings, and how accurate its analysis is: [cueflow.fr/versions](https://cueflow.fr/versions).
 
 ## Check your download
 
@@ -83,16 +81,14 @@ abonnement (4,99 € par mois ou 39 € par an, pour 1 Mac), avec un essai gratu
 
 1. Télécharge le DMG de la [dernière version](https://github.com/colasnaudi/cueflow-releases/releases/latest).
 2. Ouvre-le et glisse **Cueflow** dans **Applications**.
-3. Lance Cueflow. Il n'est pas encore notarisé par Apple : la première fois, macOS le bloque. Clique sur **Terminé**.
-4. Ouvre **Réglages Système** > **Confidentialité et sécurité**, descends et clique sur **Ouvrir quand même**, puis
-   confirme. Une seule fois par version.
-5. Clique sur **Essayer 14 jours gratuits**, ou colle ta clé `CUEF-` et clique sur **Activer**.
+3. Lance Cueflow. Il est signé et notarisé par Apple : il s'ouvre tout de suite.
+4. Clique sur **Essayer 14 jours gratuits**, ou colle ta clé `CUEF-` et clique sur **Activer**.
 
 **Mises à jour :** Cueflow te prévient quand une nouvelle version sort. Télécharge-la ici et remplace l'app dans
 Applications : ta bibliothèque, tes analyses et ta licence sont conservées. Depuis la 0.2.0 : ses codes
 d'activation ne marchent plus avec la 1.0, lance l'essai ou utilise une clé `CUEF-`.
-[Ce que chaque version apporte](https://cueflow.colasnaudi.com/versions).
+[Ce que chaque version apporte](https://cueflow.fr/versions).
 
 </details>
 
-<p align="center"><sub>© 2026 Colas Naudi · <a href="https://cueflow.colasnaudi.com/legal/licences.html">Open source licences</a></sub></p>
+<p align="center"><sub>© 2026 Colas Naudi · <a href="https://cueflow.fr/legal/licences.html">Open source licences</a></sub></p>
