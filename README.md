@@ -44,7 +44,8 @@ To check your Mac: Apple menu > **About This Mac**. Your PC: **Settings** > **Sy
 
 ## Install on Windows
 
-The Windows installer comes with the first Windows release.
+A test version for Windows is out as a pre-release ([v1.0.90](https://github.com/colasnaudi/cueflow-releases/releases/tag/v1.0.90)); the
+first stable Windows release comes later. Test versions update themselves to the next test version.
 
 1. Download `Cueflow-Setup-x.y.z.exe` from the [releases](https://github.com/colasnaudi/cueflow-releases/releases).
 2. Run it. It installs Cueflow for your Windows account only, without administrator rights.
